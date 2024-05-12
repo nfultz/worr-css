@@ -25,7 +25,32 @@ add a `&lt;p skip&gt;` tag.
   </dd>
 </dl>
 
+## Demo
 
+![_home_nfultz_test html](https://github.com/nfultz/worr-css/assets/418638/40bedefd-cc76-4d89-b9e3-6aec121bfca1)
+
+from:
+
+```
+        <wor-brace>
+        <ul>
+            <li> a
+            <li> b
+            <li> c
+                <li> <p data-from="1 to n"> d
+                <ul>
+                    <li> e
+                    <li xor>
+                    <li> e2
+                    <li xor>
+                    <li> <p not>  e1 or e2
+                        <p skip>
+                </ul>
+            <li> f
+        </ul>
+        </wor-brace>
+
+```
 
 ## What didn't work
 
