@@ -1,7 +1,18 @@
 # worr-css: Easier Warnier-Orr diagrams in HTML
 
+## Features
+
+1. Sequence
+2. Repitition
+3. Alternation
+4. Negation
+5. Noop
+
+
 
 ## What didn't work
+
+Nested Curly braces were a pain:
 
 * ChatGPT initially recommended
     ```
@@ -33,8 +44,10 @@
   * many sizing issues, no good way to position corner of the curly brace.
 * Setting several background images on `ul li:first-child()` etc
   * No way to specifiy inner-corner.
+  * Often led to gaps between sections.
 * Next, I came up with using border image in conjuction with an SVG data url
   of a curly brace, a la [emoji favicons](https://css-tricks.com/emoji-as-a-favicon/).
   * That workded, but was ugly
 * Finally, I replaced that with a full SVG of a pair of `{}`, which came out better.
+* This was combined with `flex` layout, center-aligned to get it lined up correctly.
 
