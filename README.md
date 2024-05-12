@@ -3,16 +3,26 @@
 ## Features
 
 <dl>
-<dt> Sequence</dt>
-  <dd> use standard `<ul>` and `<li>` tags
+<dt> Sequence </dt>
+  <dd>
+use standard `&lt;ul&gt;` and `&lt;li&gt;` tags
+  </dd>
 <dt> Repitition </dt>
-  <dd> within a `<li>`, add a `<p data-from=i>` tag with the `data-from` attribute.
+  <dd>
+within a `&lt;li&gt;`, add a `&lt;p data-from=i&gt;` tag with the `data-from` attribute.
+  </dd>
 <dt> Alternation </dt>
-  <dd> use `<li xor>`
+  <dd>
+use `&lt;li xor&gt;`
+  </dd>
 <dt> Negation </dt>
-  <dd> use a `<p not>` tag.
+  <dd>
+use a `&lt;p not&gt;` tag.
+  </dd>
 <dt> Noop </dt>
-  <dd> add a `<p skip>` tag.
+  <dd>
+add a `&lt;p skip&gt;` tag.
+  </dd>
 </dl>
 
 
