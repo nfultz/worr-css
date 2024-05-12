@@ -52,6 +52,12 @@ from:
 
 ```
 
+## Implementation Goals
+
+1. Keep markup simple to remember; easy enough to write by hand
+2. Where possible, leverage optional close tag rules to further simplify
+3. Do not let our CSS interfere with anything else
+
 ## What didn't work
 
 Nested Curly braces were a pain:
